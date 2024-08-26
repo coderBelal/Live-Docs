@@ -97,7 +97,7 @@ function Register() {
             </button>
           </div>
           <p className="text-center text-gray-600">
-            Already registered? <a href="/login" className="text-blue-500 hover:underline">Login</a>
+            Already registered?  <Link to={"/login"} className="text-blue-500 hover:underline">Login</Link>
           </p>
       
         </form>

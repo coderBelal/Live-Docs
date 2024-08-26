@@ -83,9 +83,9 @@ const handleSignIn = async () => {
       </div>
       <p className="text-sm text-center text-gray-600">
         New user?{" "}
-        <a href="/register" className="text-blue-500 hover:underline">
+          <Link to={"/register"} className="text-blue-500 hover:underline">
           Register Here
-        </a>
+        </Link>
       </p>
       <div className="mt-4">
   
